@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 1 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -98,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 2 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 4 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -160,7 +160,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 1 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -178,7 +178,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 2 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -196,7 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           },
                           child: const Text(
                             "Add 4 point",
-                            style: TextStyle(fontSize: 20.0, color: Colors.white),
+                            style: TextStyle(fontSize: 16.0, color: Colors.white),
                           ),
                         ),
                       ),
@@ -218,7 +218,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                   child: const Text(
                     "Reset",
-                    style: TextStyle(fontSize: 20.0, color: Colors.white),
+                    style: TextStyle(fontSize: 16.0, color: Colors.white),
                   ),),
               ),
             )
