@@ -63,8 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                       ),
                     ),
-                    const Text(
-                      "0",
+                     Text(
+                      "$teamHishamPoints",
                       style: TextStyle(fontSize: 64.0),
                     ),
                     Padding(
@@ -131,8 +131,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                       ),
                     ),
-                    const Text(
-                      "0",
+                     Text(
+                      "$teamAbdoPoints",
                       style: TextStyle(fontSize: 64.0),
                     ),
                     Padding(
