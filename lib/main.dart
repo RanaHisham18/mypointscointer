@@ -31,11 +31,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  int teamHishamPoints = 0;
+  int teamAbdoPoints = 0;
+
 
   void _incrementCounter() {
     setState(() {
-      _counter++;
+
     });
   }
 
@@ -57,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Text(
-                        "Team A",
+                        "Team Hisham",
                         style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -125,7 +127,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     const Padding(
                       padding: EdgeInsets.all(8.0),
                       child: Text(
-                        "Team B",
+                        "Team Abdo",
                         style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),
                       ),
                     ),
