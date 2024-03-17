@@ -74,7 +74,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamHishamPoints++;
+                            setState(() {
+                              teamHishamPoints++;
+                            });
                           },
                           child: const Text(
                             "Add 1 point",
@@ -90,7 +92,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamHishamPoints += 2;
+                            setState(() {
+                              teamHishamPoints += 2;
+                            });
                           },
                           child: const Text(
                             "Add 2 point",
@@ -106,7 +110,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamHishamPoints += 4;
+                            setState(() {
+                              teamHishamPoints += 4;
+                            });
                           },
                           child: const Text(
                             "Add 4 point",
@@ -148,7 +154,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamAbdoPoints++;
+                            setState(() {
+                              teamAbdoPoints++;
+                            });
                           },
                           child: const Text(
                             "Add 1 point",
@@ -164,7 +172,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamAbdoPoints += 2;
+                            setState(() {
+                              teamAbdoPoints += 2;
+                            });
                           },
                           child: const Text(
                             "Add 2 point",
@@ -180,7 +190,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         color: Colors.lightBlue,
                         child: MaterialButton(
                           onPressed: () {
-                            teamAbdoPoints += 4;
+                            setState(() {
+                              teamAbdoPoints += 4;
+                            });
                           },
                           child: const Text(
                             "Add 4 point",
@@ -198,7 +210,12 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Container(
                 width: 190.0,
                 color: Colors.lightBlue,
-                child: MaterialButton(onPressed: (){},
+                child: MaterialButton(onPressed: (){
+                  setState(() {
+                    teamAbdoPoints = 0;
+                    teamHishamPoints = 0;
+                  });
+                },
                   child: const Text(
                     "Reset",
                     style: TextStyle(fontSize: 20.0, color: Colors.white),
