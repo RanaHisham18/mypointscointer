@@ -179,11 +179,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ],
             ),
-            MaterialButton(onPressed: (){},
-              child: const Text(
-                "Reset",
-                style: TextStyle(fontSize: 20.0, color: Colors.white),
-              ),)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(0, 40, 0, 0),
+              child: Container(
+                width: 190.0,
+                color: Colors.lightBlue,
+                child: MaterialButton(onPressed: (){},
+                  child: const Text(
+                    "Reset",
+                    style: TextStyle(fontSize: 20.0, color: Colors.white),
+                  ),),
+              ),
+            )
           ],
 
         ),
